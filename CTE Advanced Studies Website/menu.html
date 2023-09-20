@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Initializing my css-->
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+<!--Initializing bootstrap css-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Monoton&family=Rock+Salt&family=Ruda:wght@500&display=swap" rel="stylesheet">
+    <title>Electric Coffee</title>
+
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png" />
+</head> 
+<body data-title="menu" style="background-color: rgb(35, 39, 53) !important;">
+    
+  <img id="error" src="images/loading.gif" alt="error">
+  <div id="errorbg"></div>
+  
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top always-top">
+        <img class="navbar-brand clickable" href="" src="images/logo.png">
+          <ul class="navbar-nav ml-auto" style="padding-right: 10px;">
+            <li class="nav-tiem">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            </ul>
+            <ul class="navbar-nav" style="padding-right: 10px;">
+                <li class="nav-tiem">
+                  <img src="images/search-01.png" id='search2'class='search' alt="search">
+                </li>
+                </ul>
+          <form class="form-inline my-2 my-lg-0" autocomplete="off" action="/action_page.php">
+            <div class="" style="width:300px;">
+              <input id="myInput2" type="text" name="currentDrink" placeholder="Try a latte!">
+            </div>
+          </form>
+        </div>
+      </nav>
+
+
+
+
+
+      <h1 id="drinkName" style="padding-top: 100px !important; font-size: 70px;">Menu</h1>
+      <div class="menuContent" style="position:absolute; top:150px; width:100%; z-index: 2;">
+        <img src="images/Dither_Transition_1.png" class="transition">
+      <h1 style="padding-top: 0px; margin-bottom: 0px; font-size: 3.5rem; background-color: rgb(45, 49, 63) !important">Hot Drinks</h1>
+      <div class="holder3" style="background-color: rgb(45, 49, 63) !important">
+        
+        <div class="held" style="grid-column: 2;">
+        <img src="images/americanoTopm.png" alt="Americano" class="innerImage lowerIMG">
+        <h4>Americano</h4>
+        </div>
+        
+        <div class="held" style="grid-column: 4;">
+          <img src="images/latteTopm.png" alt="Latte" class="innerImage lowerIMG" >
+          <h4>Latte</h4>
+        </div>
+        
+        <div class="held" style="grid-column: 6;">
+          <img src="images/cappuccinoTopm.png" alt="Cappuccino" class="innerImage lowerIMG" >
+          <h4>Cappuccino</h4>
+        </div>
+        </div>
+
+        
+        <div class="holder3" style="background-color: rgb(45, 49, 63) !important">
+        <div class="held" style="grid-column: 2;">
+          <img src="images/mochaTopm.png" alt="Mocha" class="innerImage lowerIMG">
+          <h4>Mocha</h4>
+        </div>
+        
+        <div class="held" style="grid-column: 4;">
+          <img src="images/mochaMacchiatoTopm.png" alt="Mocha Macchiato" class="innerImage lowerIMG" >
+          <h4>Mocha Macchiato</h4>
+        </div>
+        
+        <div class="held" style="grid-column: 6;">
+          <img src="images/caramelMacchiatoTopm.png" alt="Caramel Macchiato" class="innerImage lowerIMG" >
+          <h4>Caramel Macchiato</h4>
+        </div>
+        </div>
+        <img src="images/Dither_Transition_2.png" class="LblueBackground transition">
+
+      <h1 style="padding-top: 0px; cursor:auto; background-color: rgb(58, 62, 76) !important; margin-bottom: 0px; font-size: 3.5rem;">Cold Drinks</h1>
+
+      <div class="holder3" style="background-color: rgb(58, 62, 76) !important">
+        <div class="held" style="grid-column: 2;">
+          <img src="images/icedAmericanoTopm.png" alt="Iced Americano" class="innerImage lowerIMG">
+          <h4>Iced Americano</h4>
+        </div>
+        
+        <div class="held" style="grid-column: 4;">
+          <img src="images/icedLatteTopm.png" alt="Iced Latte" class="innerImage lowerIMG" >
+          <h4>Iced Latte</h4>
+        </div>
+        
+        <div class="held" style="grid-column: 6;">
+          <img src="images/icedMochaTopm.png" alt="Iced Mocha" class="innerImage lowerIMG" >
+          <h4>Iced Mocha</h4>
+        </div>
+        
+        </div>
+
+        <div class="holder2" style="background-color: rgb(58, 62, 76) !important">
+        <div class="held" style="grid-column: 2;">
+          <img src="images/icedMochaMacchiatoTopm.png" alt="Iced Mocha Macchiato" class="innerImage lowerIMG">
+          <h4>Iced Mocha Macchiato</h4>
+        </div>
+        
+        <div class="held" style="grid-column: 4;">
+          <img src="images/icedCaramelMacchiatoTopm.png" alt="Iced Caramel Macchiato" class="innerImage lowerIMG" >
+          <h4>Iced Caramel Macchiato</h4>
+        </div>
+      </div>
+      <div style="min-height: 50px; background-color: rgb(58, 62, 76);"></div>
+    </div>
+
+
+
+    
+    <div class="menuContent" style="position:absolute; top:150px; width:100%; z-index: 3;">
+      <img src="images/Dither_Transition_1.png" class="transition">
+        <h1 style="padding-top: 0px; cursor:auto; margin-bottom: 0px; font-size: 3.5rem;">Hot Drinks</h1>
+        <div class="holder3">
+          
+          <div class="held" style="grid-column: 2;">
+          <img src="images/americanoCroppedm.png" alt="Americano" class="innerImage upperIMG">
+          <h4>Americano</h4>
+          </div>
+          
+          <div class="held" style="grid-column: 4;">
+            <img src="images/latteCroppedm.png" alt="Latte" class="innerImage upperIMG" >
+            <h4>Latte</h4>
+          </div>
+          
+          <div class="held" style="grid-column: 6;">
+            <img src="images/cappuccinoCroppedm.png" alt="Cappuccino" class="innerImage upperIMG" >
+            <h4>Cappuccino</h4>
+          </div>
+          
+          </div>
+          <div class="holder3">
+          <div class="held" style="grid-column: 2;">
+            <img src="images/mochaCroppedm.png" alt="Mocha" class="innerImage upperIMG">
+            <h4>Mocha</h4>
+          </div>
+          
+          <div class="held" style="grid-column: 4;">
+            <img src="images/mochaMacchiatoCroppedm.png" alt="Mocha Macchiato" class="innerImage upperIMG" >
+            <h4>Mocha Macchiato</h4>
+          </div>
+          
+          <div class="held" style="grid-column: 6;">
+            <img src="images/caramelMacchiatoCroppedm.png" alt="Caramel Macchiato" class="innerImage upperIMG" >
+            <h4>Caramel Macchiato</h4>
+          </div>
+          
+        </div>
+        <img src="images/Dither_Transition_2.png" class="LblueBackground transition">
+        <h1 style="padding-top: 0px; cursor:auto; margin-bottom: 0px; font-size: 3.5rem;">Cold Drinks</h1>
+  
+        <div class="holder3">
+          
+          <div class="held" style="grid-column: 2;">
+            <img src="images/icedAmericanoCroppedm.png" alt="Iced Americano" class="innerImage upperIMG">
+            <h4>Iced Americano</h4>
+          </div>
+          
+          <div class="held" style="grid-column: 4;">
+            <img src="images/icedLatteCroppedm.png" alt="Iced Latte" class="innerImage upperIMG">
+            <h4>Iced Latte</h4>
+          </div>
+          
+          <div class="held" style="grid-column: 6;">
+            <img src="images/icedMochaCroppedm.png" alt="Iced Mocha" class="innerImage upperIMG">
+            <h4>Iced Mocha</h4>
+          </div>
+          </div>
+  
+  
+          <div class="holder2">
+          <div class="held" style="grid-column: 2;">
+            <img src="images/icedMochaMacchiatoCroppedm.png" alt="Iced Mocha Macchiato" class="innerImage upperIMG">
+            <h4>Iced Mocha Macchiato</h4>
+          </div>
+          
+          <div class="held" style="grid-column: 4;">
+            <img src="images/icedCaramelMacchiatoCroppedm.png" alt="Iced Caramel Macchiato" class="innerImage upperIMG">
+            <h4>Iced Caramel Macchiato</h4>
+          </div>
+          </div>
+          
+      </div>
+
+
+
+
+      
+      <div class="menuContent" style="position:absolute; top:222px; width:100%">
+      </div>
+    
+    <div style="min-height: 50px !important"></div>
+    <img id="uparrow" class="top-scroll" src="images/arrow-up.png">
+      <div class="scrollercc"></div>
+    <img class="img scrollcc" src="images/ccs.png" alt="logo">
+
+<!--Initializing my javascript-->
+<script src="scripts/index.js"></script>
+<!--Initializing bootstrap javascript-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,372 @@
+html {
+    overflow-x:hidden;
+    width: 100%;
+}
+
+.upperIMG {
+    cursor: pointer;
+}
+
+.holder3 {
+    display: inline-grid;
+  grid-template-columns: 2% 31.33333% 1% 31.33333% 1% 31.33333% 2%;
+}
+
+.holder2 {
+  display: inline-grid;
+  width: 100%;
+  grid-template-columns: 18.66666% 31.33333% 1% 31.33333% 18.66666%;
+
+}
+
+.innerImage {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+h4 {
+    text-align: center;
+    font-family: 'Ruda', sans-serif !important;
+    color: rgb(97, 160, 175) !important;
+
+}
+.cursive {
+    font-family: 'Comforter Brush', cursive !important;
+}
+h3 {
+    font-family: 'Rock Salt', cursive !important;
+    color: rgb(97, 160, 175) !important;
+    font-size: 45px !important;
+}
+
+p {
+    font-family: 'Ruda', sans-serif !important;
+}
+
+.logo {
+    width: 10%;
+    z-index: 6 !important;
+}
+#bg-transition {
+    position: absolute !important;
+    background-color: rgb(250, 240, 202) !important;
+    width: 100%;
+}
+#navbar {
+    transition: top .6s;
+    position: fixed;
+    background: linear-gradient(to bottom, rgb(97, 160, 175) 40%, rgba(97, 160, 175, .8) 100%) !important;
+    background-color: rgba(0,0,0,0) !important;
+    z-index: 12 !important;
+}
+
+.search {
+    cursor: pointer;
+}
+
+.dynamic-top {
+    top: -550px !important;
+}
+
+body {
+    min-width: fit-content !important;
+}
+
+#errorbg {
+    height: 1200px !important;
+    width: 100%;
+    background-color: rgb(35, 39, 53);
+    z-index: 99 !important;
+    position:fixed;
+}
+
+#drinkImage {
+    max-width: 528px; 
+    src: "" !important;
+}
+
+.bg {
+    position: absolute;
+    z-index: -3;
+}
+
+.coffeecup {
+    position: absolute;
+    display:block !important;
+    z-index: 2;
+}
+
+#main-bg {
+    top: 0px;
+    z-index: -1;
+    min-width: 1600px;
+    width: 100%;
+}
+
+#secondary-bg {
+    z-index: 0;
+    width: 100% !important;
+    left: 0px !important;
+}
+
+#drinkName {
+    font-family: 'Monoton' , cursive !important;
+    pointer-events: none;
+}
+
+.lblue {
+    color: rgb(97, 160, 175) !important;
+}
+
+.dblue {
+    color: rgb(35, 39, 53) !important;
+}
+#error {
+    display: none;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+#bg-color {
+    background-color: rgb(35, 39, 53);
+}
+.always-top {
+    top: 0px !important;
+}
+.transition {
+    width: 100%;
+}
+
+#drinkImage {
+    width: 45%;
+}
+
+.top-space {
+    margin-top: 75px !important;
+    padding: 0px !important;
+}
+
+.scrollcc {
+    position:fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 30;
+    height: 70px;
+}
+
+#cc3 {
+    z-index: 1 !important;
+    pointer-events: none;
+}
+
+.scrollercc {
+    position:fixed;
+    bottom: 15px;
+    right: 20px;
+    width: 40px;
+    height: 45px;
+    background-color: rgb(107, 85, 73);
+    z-index:29;
+}
+
+.firstContainer {
+    margin-top: 175px;
+}
+#uparrow {
+    position:fixed;
+    bottom: -100px;
+    right: 5px;
+    width: 70px;
+    height: 70px;
+    z-index: 31;
+    padding: 26px;
+    padding-top:30px;
+    padding-bottom:22px;
+    transition: bottom 1s;
+    cursor: pointer;
+}
+
+#cc1 {
+    z-index: 4;
+}
+
+
+
+#cct1 {
+    position: absolute !important;
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    z-index: 5;
+}
+
+#cct2 {
+    position: absolute !important;
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    z-index: 3;
+}
+.navbar-brand {
+    max-height: 50px;
+    cursor: pointer;
+}
+
+.sideArrow{
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 12px !important;
+    background-color: rgb(35,39,53) !important;
+    color: rgb(152,234,255) !important;
+    border: 2px solid rgb(152,234,255) !important;
+}
+h1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 290px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    color: rgb(152, 234, 255) !important;
+    text-shadow: 1px 1px rgb(5, 31, 54);
+    font-family: 'Comforter Brush' , cursive !important;
+}
+#cn {
+    padding-bottom: 0;
+    font-family: 'Monoton' , cursive !important;
+    font-size: 65px;
+    padding-top: 115px;
+    color: rgb(58, 175, 185) !important;
+    cursor: auto !important;
+    text-shadow: 2px 2px rgb(5, 31, 54) !important;
+    z-index: 10 !important;
+}
+#company {
+    position: absolute !important;
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    z-index: 10 !important;
+    pointer-events: none;
+}
+#content {
+    position: absolute;
+    z-index: 11;
+    width: 100% !important;
+}
+
+.padded{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container-fluid {
+    padding: 0px 45px 0px 45px !important;
+}
+
+.last {
+    background-color: rgb(58, 62, 76) !important;
+}
+.LblueBackground {
+    background-color: rgb(45, 49, 63) !important;
+}
+
+/* search bar css */
+* { box-sizing: border-box; }
+body {
+  font: 16px Arial;
+}
+input {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    top: 300px;
+    padding: 200px 0;
+    background-color: rgba(250, 240, 202, .9) !important;
+}
+::placeholder {
+    color: rgba(35, 39 ,53, .9);
+    font-family: 'Ruda', sans-serif;
+}
+#search1 {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 12px;
+    height: 20px;
+    width: 20px;
+}
+#search2 {
+    position: absolute;
+    margin-left: 25px;
+    top: 24px;
+    height: 20px;
+    width: 20px;
+}
+.autocomplete {
+  /*the container must be positioned relative:*/
+    position: absolute !important;
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    z-index: 7;
+    left: 300px;
+    top: 500px;
+}
+input {
+  border: 1px solid transparent;
+  background-color: rgba(250, 240, 202, .9);
+  padding: 10px;
+  font-size: 16px;
+  z-index: 7;
+  border-radius: 30px;
+}
+input[type=text] {
+  background-color: rgba(250, 240, 202, .9);
+  width: 100%;
+  z-index: 7;
+
+}
+input[type=submit] {
+  background-color: rgba(250, 240, 202, .9);
+  color: #fff;
+  z-index: 8;
+
+}
+.autocomplete-items {
+  position: absolute !important;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 8;
+  /*position the autocomplete items to be the same width as the container:*/
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(250, 240, 202, .9);
+  border-bottom: 1px solid #d4d4d4;
+  z-index: 8;
+
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: rgba(247, 230, 164, 0.9);
+  z-index: 7;
+
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: rgba(224, 219, 198, 0.9) !important;
+  color: #ffffff;
+  z-index: 7;
+
+}
